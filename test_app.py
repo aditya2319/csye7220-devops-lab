@@ -1,4 +1,4 @@
 from app import login
 
 def test_login():
-    assert login("admin","wrong") == True
+    assert login("admin","wrong") == False
